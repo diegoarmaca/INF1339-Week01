@@ -40,10 +40,14 @@
             else
                 {output = '0' + output}
             quotient = Math.floor(quotient/2)
+        
         }
+        while (output.length < 4) {output = '0' + output}
+        return(output)
+        
     }
 </script>
-</head>
+</head> 
 <body>
     <h2>Version 5a Adding Decimal to Binary Conversion</h2>
     <table class="standardTable">
